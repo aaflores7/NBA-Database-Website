@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: "Bebas Neue", sans-serif;
+  background-image: url('../files/images/admin-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#menu{
+    padding: 50px 20px;
+    color: white;
+    background-color: #000;
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+#menu-options{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+#menu-options a{
+  width: 100%;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+#menu-options a:hover{
+  background-color: #e0ebed;
+  color: black;
+}
+
+
+
+#nba-logo-banner {
+  display: flex;
+  height: 50px;
+  font-size: 40px;
+  align-items: flex-end;
+  justify-content: center;
+  /* border: 5px red solid; */
+}
+#nba-logo-banner div{
+  padding: 0;
+
+}
+
+#nba-logo-banner img {
+  height: 50px;
+} 
+
+#overall{
+  display: flex;
+  height: auto;
+}
+
+#profile_name {
+  font-size: 75px;
+  color: white;
+  width: 100px;
+  line-height: 0.8;
+}
+
+#frame {
+  margin: 50px 0px;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-left: 320px;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+
+#filter-bar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#search-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #e0ebed;
+  width: 100%;
+}
+
+#filter {
+  display: flex;
+  /* border: 1px solid red; */
+  /* padding-left: 10px; */
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  /* width: 960px; */
+}
+.btn-actions{
+  width: 50px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 10px;
+  /* display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+}
+
+.filter-dropdown-option {
+  max-width: 100px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 15px;
+}
+
+.player-list {
+  width: 100%;
+  /* margin: 0 auto; */
+  text-align: center;
+  border-collapse: collapse;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.player-list th {
+  height: 50px;
+  /* width: 100px; */
+  background-color: #e0ebed;
+  font-weight: bold;
+}
+
+.player-list th:first-child {
+  width: 150px;
+}
+
+.player-list tr {
+  border-bottom: 1px solid #e0ebed;
+  height: 50px;
+  font-weight: normal;
+}
+
+.fill-up-info{
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.fill-up-info div{ 
+  margin-bottom: 10px;
+}
+
+.fill-up-info input, .form-control{
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+#image-section {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 300px;
+  align-items: flex-end;
+  color: white;
+  font-size: 20px;
+  /* border: 1px solid black; */
+}
