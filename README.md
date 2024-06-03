@@ -1,9 +1,10 @@
 ## Quickstart Guide
 1. Copy all the contents from this repository.
 2. Copy all files and directories to the htdocs directory inside xampp (for example: C:\xampp\htdocs\nba database), where "nba database" will contain all of the files.
-3. Import the databases [mynbadb.sql] in phpmyadmin or directly embed it into your MySQL database through the command prompt (refer to this link on how - https://www.warp.dev/terminus/mysql-import-sql-file). 
-4. Open your XAMPP Panel and make sure to start your APACHE and MySQL 'Modules' under 'Actions' (refer to this link, if you do not have XAMPP, yet - https://www.apachefriends.org/download.html)
-5. Open any browser, enter localhost, and browse the index.php file location on the search bar. (i.e. localhost/nba database/index.php)
+3. Import the databases [mynbadb.sql] in phpmyadmin or directly embed it into your MySQL database through the command prompt (refer to this link on how - https://www.warp.dev/terminus/mysql-import-sql-file).
+4. In common.php file, edit the database name (mynbadb), host (localhost), port number (3306), username (root), and password (password) as per your database configuration.
+5. Open your XAMPP Panel and make sure to start your APACHE and MySQL 'Modules' under 'Actions' (refer to this link, if you do not have XAMPP, yet - https://www.apachefriends.org/download.html)
+6. Open any browser, enter localhost, and browse the index.php file location on the search bar. (i.e. localhost/nba database/index.php)
 
 ## Login Credentials
 Admin Role
