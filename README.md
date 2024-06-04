@@ -1,3 +1,4 @@
+# NBA Database Website
 ## Quickstart Guide
 1. Copy all the contents from this repository.
 2. Copy all files and directories to the htdocs directory inside xampp (for example: C:\xampp\htdocs\nba database), where "nba database" will contain all of the files.
